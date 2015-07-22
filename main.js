@@ -14,27 +14,26 @@
    of makeName and give it the value of your
    vehicle's make.
  */
-
-Car.prototype.makeName = "Ford"
+Car.prototype.makeName = "Ford";
 
 
 /*
 Create a function, Model, to hold the 
 corresponding property and value
 */
-Car.prototype.Model = "Model T"
+Car.prototype.Model = "Model T";
 
 
 // What is the prototype of a Model?
-//Model T
+  //Model T
 
 // Define a Car
 function Car(color) {
-  this.color = color
+  this.color = color;
 }
 
 // What is the prototype of a Car?
-
+  //Ford, Model T, color
 
 // Create the first car
 var firstCar = new Car("red");
@@ -48,3 +47,6 @@ var thirdCar = new Car("blue");
 
 
 console.log(firstCar, secondCar, thirdCar);
+
+
+
